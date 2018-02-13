@@ -43,14 +43,14 @@
     #   DefaultGateway = 'Default Gateway IP'
     #   NetworkMask = '255.255.255.0'
     # }
-    JFV = @{
+    XYZ = @{
         TemplateName = 'Windows 2012 Std R2'
-        DatacenterName = 'JFV'
+        DatacenterName = 'XYZ'
         DatastoreName = '' # If blank, will auto select.
         VMName = '' # If blank, will auto select.
-        DnsServers = '10.147.1.20','10.147.1.21'
-        DefaultGateway = '10.147.1.1'
+        DnsServers = '192.168.0.2','192.168.0.3'
+        DefaultGateway = '192.168.0.1'
         SubnetMask = '255.255.255.0'
-        OUPath = 'OU=Servers,OU=FMedical,DC=fmedical,DC=net'
+        OUPath = 'OU=Servers,OU=IT,DC=contoso,DC=com'
     }
 }
